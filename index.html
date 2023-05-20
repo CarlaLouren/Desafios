@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="conteudo">
+        <h1>Gerador de projetos</h1>
+        <form id="projetoForm">
+          <label for="">Nome projeto </label>
+          <input type="text" id="nomeDoProjeto" />
+          <label for="">Descrição projeto </label>
+          <input type="text" id="descricaoProjeto" />
+          <label for="">Responsavel </label>
+          <input type="text" id="responsavel" />
+          <label for="">Data Inicio </label>
+          <input type="date" id="dataInicio" />
+          <label for="">Data Fim </label>
+          <input type="date" id="dataFim" />
+          <div class="btn">
+            <button type="submit">Adicionar Projeto</button>
+          </div>
+        </form>
+        <div class="lista">
+          <ul id="projetoLista"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="Projeto.js"></script>
+    <script src="Tarefa.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

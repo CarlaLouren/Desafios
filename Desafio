@@ -1,0 +1,35 @@
+// O sistema de gerenciamento de projetos permite o registro e acompanhamento de projetos, desde a criação até a conclusão. O sistema é composto pelas classes Projeto e Tarefa.
+
+// A classe Projeto representa um projeto específico e possui as seguintes propriedades:
+
+// nome: o nome do projeto.
+// descricao: uma descrição detalhada do projeto.
+// responsavel: o nome do responsável pelo projeto.
+// dataInicio: a data de início do projeto.
+// dataFim: a data de conclusão planejada do projeto.
+// tarefas: uma lista das tarefas relacionadas ao projeto.
+// // status: o status atual do projeto, que pode ser "Em andamento" ou "Concluído".
+// // A classe Tarefa representa uma tarefa relacionada a um projeto e possui as seguintes propriedades:
+
+// // nome: o nome da tarefa.
+// // descricao: uma descrição detalhada da tarefa.
+// // responsavel: o nome do responsável pela tarefa.
+// // dataInicio: a data de início da tarefa.
+// // dataFim: a data de conclusão planejada da tarefa.
+// // status: o status atual da tarefa, que pode ser "Em andamento" ou "Concluída".
+// // O sistema permite o seguinte fluxo de funcionamento:
+
+// // Criação do Projeto:
+
+// // Um novo projeto é criado fornecendo um nome, descrição, responsável, data de início e data de conclusão planejada.
+// // O projeto é inicializado com status "Em andamento".
+// // Adição de Tarefas ao Projeto:
+
+// // Tarefas relacionadas ao projeto são criadas, fornecendo um nome, descrição, responsável, data de início e data de conclusão planejada.
+// // As tarefas são adicionadas à lista de tarefas do projeto.
+// // Conclusão de Tarefas:
+
+// // Uma vez iniciada, cada tarefa pode ser marcada como "Concluída", atualizando seu status.
+// // Conclusão do Projeto:
+
+// // Quando todas as tarefas relacionadas ao projeto forem concluídas, o projeto pode ser marcado como "Concluído", atualizando seu status.
